@@ -1,0 +1,32 @@
+ext {
+    //Config
+    androidCompileSdkVersion = 28
+    androidBuildToolsVersion = "28.0.3"
+    androidMinSdkVersion = 19
+    androidTargetSdkVersion = 28
+
+    appVersionCode = 102
+    appVersionName = "1.99.1"
+
+    //Deps
+    support = '27.1.1'
+    appCompatVersion = '1.2.0-rc01'
+
+    //Test deps
+    jUnitVersion = '4.13'
+    testRunnerVersion = '1.0.2'
+    espressoVersion = '3.0.2'
+
+
+    injectionHolderDependencies = [
+            //appcompat   : "com.android.support:appcompat-v7:$support",
+            //appcompat   : "androidx.appcompat:appcompat:$appCompatVersion",
+            kotlinStdlib: "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    ]
+
+    testDependencies = [
+            junit     : "junit:junit:$jUnitVersion",
+            testRunner: "com.android.support.test:runner:$testRunnerVersion",
+            espresso  : "com.android.support.test.espresso:espresso-core:$espressoVersion"
+    ]
+}

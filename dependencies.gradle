@@ -9,7 +9,6 @@ ext {
     appVersionName = "1.99.1"
 
     //Deps
-    support = '27.1.1'
     appCompatVersion = '1.2.0-rc01'
 
     //Test deps
@@ -19,8 +18,7 @@ ext {
 
 
     injectionHolderDependencies = [
-            //appcompat   : "com.android.support:appcompat-v7:$support",
-            //appcompat   : "androidx.appcompat:appcompat:$appCompatVersion",
+            appcompat   : "androidx.appcompat:appcompat:$appCompatVersion",
             kotlinStdlib: "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     ]
 

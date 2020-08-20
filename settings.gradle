@@ -1,1 +1,2 @@
 include ':library-injectionholder'
+rootProject.name = "injectionholder"

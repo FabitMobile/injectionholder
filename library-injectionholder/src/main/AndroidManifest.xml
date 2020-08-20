@@ -1,1 +1,3 @@
-<manifest package="ru.fabit.injectionholder" />
+<manifest package="ru.fabit.injectionholder" >
+    <application/>
+</manifest>

@@ -11,20 +11,8 @@ ext {
     //Deps
     appCompatVersion = '1.2.0-rc01'
 
-    //Test deps
-    jUnitVersion = '4.13'
-    testRunnerVersion = '1.0.2'
-    espressoVersion = '3.0.2'
-
-
     injectionHolderDependencies = [
             appcompat   : "androidx.appcompat:appcompat:$appCompatVersion",
             kotlinStdlib: "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    ]
-
-    testDependencies = [
-            junit     : "junit:junit:$jUnitVersion",
-            testRunner: "com.android.support.test:runner:$testRunnerVersion",
-            espresso  : "com.android.support.test.espresso:espresso-core:$espressoVersion"
     ]
 }

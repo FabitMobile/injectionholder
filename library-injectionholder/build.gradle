@@ -32,17 +32,11 @@ android {
 
 dependencies {
     def deps = rootProject.ext.injectionHolderDependencies
-    def depsTest = rootProject.ext.testDependencies
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation deps.appcompat
     implementation deps.kotlinStdlib
-
-    testImplementation depsTest.junit
-
-    androidTestImplementation depsTest.testRunner
-    androidTestImplementation depsTest.espresso
 }
 repositories {
     mavenCentral()

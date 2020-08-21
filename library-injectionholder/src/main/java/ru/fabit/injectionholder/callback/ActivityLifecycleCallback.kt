@@ -6,7 +6,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import ru.fabit.injectionholder.ComponentOwner
 
-internal class ActivityLifecycleCallback(
+class ActivityLifecycleCallback(
     private val componentCallback: ComponentCallback,
     private val componentCreationMode: ComponentCreationMode
 ) : Application.ActivityLifecycleCallbacks {

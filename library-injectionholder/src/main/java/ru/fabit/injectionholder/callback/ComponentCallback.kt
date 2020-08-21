@@ -2,7 +2,7 @@ package ru.fabit.injectionholder.callback
 
 import ru.fabit.injectionholder.ComponentOwner
 
-internal interface ComponentCallback {
+interface ComponentCallback {
 
     fun <T> onAddInjection(componentOwner: ComponentOwner<T>)
 

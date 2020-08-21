@@ -7,7 +7,7 @@ import androidx.fragment.app.FragmentManager
 import ru.fabit.injectionholder.ComponentOwner
 import java.util.concurrent.atomic.AtomicBoolean
 
-internal class SupportFragmentLifecycleCallback(
+class SupportFragmentLifecycleCallback(
     private val componentCallback: ComponentCallback,
     private val componentCreationMode: ComponentCreationMode
 ) : FragmentManager.FragmentLifecycleCallbacks() {

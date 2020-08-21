@@ -2,7 +2,7 @@ package ru.fabit.injectionholder.storage
 
 import ru.fabit.injectionholder.exception.ComponentNotFoundException
 
-internal class ComponentsStore {
+class ComponentsStore {
 
     private val components = mutableMapOf<String, Any>()
 

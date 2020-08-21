@@ -6,7 +6,7 @@ import ru.fabit.injectionholder.ComponentOwnerLifecycle
 import ru.fabit.injectionholder.registry.LifecycleCallbacksRegistry
 import ru.fabit.injectionholder.storage.ComponentsStore
 
-internal class ComponentCallbackImpl(
+class ComponentCallbackImpl(
     private val componentsStore: ComponentsStore,
     private val lifecycleCallbacksRegistry: LifecycleCallbacksRegistry
 ) : ComponentCallback {

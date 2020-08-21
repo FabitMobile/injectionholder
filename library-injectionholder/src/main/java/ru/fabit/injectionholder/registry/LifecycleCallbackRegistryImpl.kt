@@ -5,7 +5,7 @@ import ru.fabit.injectionholder.callback.ActivityLifecycleCallback
 import ru.fabit.injectionholder.callback.ComponentCallback
 import ru.fabit.injectionholder.callback.ComponentCreationMode
 
-internal class LifecycleCallbackRegistryImpl(private val componentCreationMode: ComponentCreationMode) :
+class LifecycleCallbackRegistryImpl(private val componentCreationMode: ComponentCreationMode) :
     LifecycleCallbacksRegistry {
     override fun registerLifecycleCallbacks(
         app: Application,

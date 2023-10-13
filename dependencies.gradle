@@ -6,7 +6,7 @@ ext {
     androidTargetSdkVersion = 28
 
     appVersionCode = 1
-    appVersionName = "1.0.3"
+    appVersionName = "1.0.4"
 
     //Deps
     appCompatVersion = '1.2.0-rc01'

@@ -3,7 +3,7 @@ package ru.fabit.injectionholder.callback
 import android.app.Activity
 import android.app.Application
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.FragmentActivity
 import ru.fabit.injectionholder.ComponentOwner
 
 class ActivityLifecycleCallback(
@@ -30,7 +30,7 @@ class ActivityLifecycleCallback(
             componentCallback.onAddInjection(activity)
         }
 
-        (activity as? AppCompatActivity)
+        (activity as? FragmentActivity)
             ?.supportFragmentManager
             ?.registerFragmentLifecycleCallbacks(
                 SupportFragmentLifecycleCallback(

@@ -1,0 +1,18 @@
+ext {
+    //Config
+    androidCompileSdkVersion = 28
+    androidBuildToolsVersion = "28.0.3"
+    androidMinSdkVersion = 19
+    androidTargetSdkVersion = 28
+
+    appVersionCode = 1
+    appVersionName = "1.0.3"
+
+    //Deps
+    appCompatVersion = '1.2.0-rc01'
+
+    injectionHolderDependencies = [
+            appcompat   : "androidx.appcompat:appcompat:$appCompatVersion",
+            kotlinStdlib: "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    ]
+}
